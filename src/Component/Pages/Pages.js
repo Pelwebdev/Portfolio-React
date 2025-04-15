@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from '../Common/Header';
 import Home from '../Home/Home';
 import About from './About';
@@ -14,8 +14,7 @@ function Pages() {
     <>
       <Router>
         <Header />
-        
-          <Routes>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
@@ -23,9 +22,10 @@ function Pages() {
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
-          </Routes>
+        </Routes>
       </Router>
     </>
   )
 }
-export default Pages
+
+export default Pages;

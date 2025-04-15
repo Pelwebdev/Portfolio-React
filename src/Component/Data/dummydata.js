@@ -1,4 +1,16 @@
 import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import port1 from '../img/port1.jpg'
+import port2 from '../img/port2.jpg'
+import port3 from '../img/port3.jpg'
+import port4 from '../img/port4.jpg'
+import port5 from '../img/port5.jpg'
+import port6 from '../img/port6.jpg'
+import team1 from '../img/team-1.png'
+import team2 from '../img/team-2.png'
+import team3 from '../img/team-3.png'
+import blog1 from '../img/b1.png'
+import blog2 from '../img/b2.png'
+import blog3 from '../img/b3.png'
 
 export const navlink = [
   {
@@ -113,42 +125,42 @@ export const project = [
 export const portfolio = [
   {
     id: 1,
-    cover: "../images/port1.jpg",
+    cover: port1,
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
   },
   {
     id: 2,
-    cover: "../images/port2.jpg",
+    cover: port2,
     name: "Brand",
     category: "design",
     title: "Brex Logo",
   },
   {
     id: 3,
-    cover: "../images/port3.jpg",
+    cover: port3,
     name: "Brand",
     category: "development",
     title: "Brex Logo",
   },
   {
     id: 4,
-    cover: "../images/port4.jpg",
+    cover: port4,
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
   },
   {
     id: 5,
-    cover: "../images/port5.jpg",
+    cover: port5,
     name: "Brand",
     category: "design",
     title: "Brex Logo",
   },
   {
     id: 6,
-    cover: "../images/port6.jpg",
+    cover: port6,
     name: "Brand",
     category: "development",
     title: "Brex Logo",
@@ -158,21 +170,21 @@ export const testimonials = [
   {
     id: 1,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/team-1.png",
+    image: team1,
     name: "Alamin Musa",
     post: "Front End Developer",
   },
   {
     id: 2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/team-2.png",
+    image: team2,
     name: "Alex Ander",
     post: "Back End Developer",
   },
   {
     id: 3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/team-3.png",
+    image: team3,
     name: "GorkCoder",
     post: "React Developer",
   },
@@ -184,7 +196,7 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/b1.png",
+    cover: blog1,
   },
   {
     id: 2,
@@ -192,7 +204,7 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/b2.png",
+    cover: blog2,
   },
   {
     id: 3,
@@ -200,7 +212,7 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/b3.png",
+    cover: blog3,
   },
 ]
 export const contact = [
